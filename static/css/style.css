@@ -528,6 +528,15 @@ a.pillar-link:hover .pillar-title { color: var(--gold-dim); }
   max-width: 50ch;
 }
 
+.contact-form-embed {
+  max-width: 40rem;
+}
+
+.contact-form-embed iframe {
+  max-width: 100%;
+  border: 0;
+}
+
 .contact-form {
   max-width: 40rem;
   display: grid;
@@ -586,6 +595,8 @@ a.pillar-link:hover .pillar-title { color: var(--gold-dim); }
   cursor: pointer;
 }
 
+.contact-submit { justify-self: start; margin-top: 0.25rem; }
+
 .checkbox-group-label {
   display: block;
   font-family: var(--display);
@@ -634,46 +645,6 @@ a.pillar-link:hover .pillar-title { color: var(--gold-dim); }
   outline: none;
   border-color: var(--gold);
 }
-
-.marketing-prefs {
-  border-top: 1px solid var(--line);
-  padding-top: 1.5rem;
-  margin-top: 0.5rem;
-}
-.marketing-prefs h2 {
-  font-family: var(--display);
-  text-transform: uppercase;
-  letter-spacing: 0.02em;
-  font-weight: 700;
-  font-size: 1.375rem;
-  margin: 0 0 0.9rem;
-  color: var(--ink);
-}
-.mp-checkbox-row {
-  display: flex;
-  align-items: flex-start;
-  gap: 0.65rem;
-  font-family: var(--display);
-  font-weight: 600;
-  font-size: 1.0625rem;
-  cursor: pointer;
-}
-.mp-checkbox-row input[type="checkbox"] {
-  width: 1.25rem;
-  height: 1.25rem;
-  margin-top: 0.15rem;
-  accent-color: var(--ink);
-  flex-shrink: 0;
-}
-.mp-disclaimer {
-  margin: 0.85rem 0 0;
-  font-size: 0.875rem;
-  color: var(--slate);
-  line-height: 1.55;
-  max-width: 55ch;
-}
-
-.contact-submit { justify-self: start; margin-top: 0.25rem; }
 
 .contact-note {
   max-width: 40rem;

@@ -247,9 +247,9 @@ ahsenmalik-website/
 This template implements the content and structure requested, but a few
 pieces depend on accounts or services only the campaign can set up:
 
-- **Contact form** (`content/contact.md`) has no backend yet — submitting it
-  currently just reloads the page. Wire it to a form service (Formspree,
-  Netlify Forms, a Google Form, etc.) or a custom endpoint before launch.
+- **Contact** (`content/contact.md`) embeds a Google Form via iframe, so
+  submissions go directly to that form's responses — no additional backend
+  wiring needed.
 - **Get Involved** embeds the Google Form exactly as provided. Renaming
   "Volunteer Summer Fellowship" to "Volunteer," allowing multi-select,
   removing the car/laptop/start-date questions, and adding the resume note
