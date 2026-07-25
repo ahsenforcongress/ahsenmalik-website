@@ -519,6 +519,8 @@ a.pillar-link:hover .pillar-title { color: var(--gold-dim); }
 }
 .disclaimer { margin: 0; font-weight: 500; color: rgba(255, 255, 255, 0.85); }
 .copyright { margin: 0; color: rgba(255, 255, 255, 0.5); font-size: 0.9375rem; }
+.legal-link { color: rgba(255, 255, 255, 0.5); margin-left: 0.5rem; }
+.legal-link:hover { color: var(--gold); }
 
 /* ---- Contact form ------------------------------------------------ */
 .contact-intro {
