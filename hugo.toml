@@ -68,6 +68,11 @@ disableKinds = ["taxonomy", "term"]
     parent = "Issues"
     weight = 27
   [[menus.main]]
+    name = "ICE: To Abolish or Not, That Is the Question"
+    pageRef = "/issues/ice"
+    parent = "Issues"
+    weight = 28
+  [[menus.main]]
     name = "Get Involved"
     pageRef = "/get-involved"
     weight = 30
