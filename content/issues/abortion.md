@@ -8,7 +8,7 @@ description: "Ahsen Malik's position on abortion — a durable, bipartisan compr
     <li>I am pro-choice in the first trimester and pro-life in the last trimester</li>
     <li>I am open to bringing both sides together to facilitate a mutually agreeable compromise to eliminate any possibility of civil strife in the future</li>
   </ul>
-  <img class="issue-summary__image" src="/images/Abortion1.jpg" alt="Ahsen Malik on abortion policy">
+  <img class="issue-summary__image" src="https://ahsenforcongress.github.io/ahsenmalik-website/images/Abortion1.jpg" alt="Ahsen Malik on abortion policy">
 </div>
 
 The issue of abortion is one of the most sensitive topics for many voters.
