@@ -4,10 +4,13 @@ description: "Ahsen Malik's position on abortion — a durable, bipartisan compr
 ---
 
 <div class="issue-summary">
-  <ul class="issue-summary__points">
-    <li>I am pro-choice in the first trimester and pro-life in the last trimester</li>
-    <li>I am open to bringing both sides together to facilitate a mutually agreeable compromise to eliminate any possibility of civil strife in the future</li>
-  </ul>
+  <div class="issue-summary__left">
+    <h2 class="issue-summary__title">Summary</h2>
+    <ul class="issue-summary__points">
+      <li>I am pro-choice in the first trimester and pro-life in the last trimester</li>
+      <li>I am open to bringing both sides together to facilitate a mutually agreeable compromise to eliminate any possibility of civil strife in the future</li>
+    </ul>
+  </div>
   <img class="issue-summary__image" src="https://ahsenforcongress.github.io/ahsenmalik-website/images/Abortion1.jpg" alt="Ahsen Malik on abortion policy">
 </div>
 
