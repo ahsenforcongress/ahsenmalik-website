@@ -3,6 +3,16 @@ title: "Vote For Your True #1: Presidential Election Reform"
 description: "Ahsen Malik's position on presidential election reform."
 ---
 
+<div class="issue-summary">
+  <div class="issue-summary__left">
+    <h2 class="issue-summary__title">Summary</h2>
+    <ul class="issue-summary__points">
+      <li>I support a constitutional amendment to replace the Electoral College with Ranked Choice Voting</li>
+    </ul>
+  </div>
+  <img class="issue-summary__image" src="https://ahsenforcongress.github.io/ahsenmalik-website/images/PresidentialElection.jpg" alt="Presidential election reform">
+</div>
+
 Regardless of what one might feel about how much power a president should
 or should not wield, it is no understatement to say that the President of
 the United States is the most powerful individual in our country, if not
