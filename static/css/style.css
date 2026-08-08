@@ -35,6 +35,7 @@ body {
   background: var(--paper);
   line-height: 1.6;
   font-size: 1.0625rem;
+  border-top: 6px solid red;
 }
 
 .wrap {
