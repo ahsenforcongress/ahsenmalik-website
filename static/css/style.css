@@ -484,6 +484,76 @@ a.pillar-link:hover .pillar-title { color: var(--gold-dim); }
   .issue-summary { grid-template-columns: 1fr; }
 }
 
+/* ICE page summary — distinct dark/gold treatment, scoped to this page only */
+.ice-summary {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 260px;
+  align-items: stretch;
+  gap: 1.5rem;
+  margin: 0 0 1.75rem;
+}
+.ice-summary__left {
+  padding: 1.25rem 1.5rem;
+  background: var(--ink);
+  border-left: 4px solid var(--gold);
+  border-radius: 8px;
+  color: #fff;
+}
+.ice-summary__title {
+  font-family: var(--display);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  font-size: 1.125rem;
+  margin: 0 0 0.85rem;
+  color: var(--gold);
+}
+.ice-summary__points {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.ice-summary__points li {
+  position: relative;
+  font-weight: 700;
+  padding-left: 1.3rem;
+  margin-bottom: 0.85rem;
+}
+.ice-summary__points li:last-child { margin-bottom: 0; }
+.ice-summary__points li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.5em;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--gold);
+}
+.ice-summary__image-wrap {
+  border-radius: 12px;
+  overflow: hidden;
+}
+.ice-summary__image-wrap:not(:empty) {
+  box-shadow: 0 8px 24px rgba(40, 16, 60, 0.25);
+  border: 3px solid var(--gold);
+}
+.ice-summary__image-wrap:empty {
+  min-height: 260px;
+  border: 2px dashed var(--gold);
+}
+.ice-summary__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  margin: 0;
+}
+@media (max-width: 640px) {
+  .ice-summary { grid-template-columns: 1fr; }
+  .ice-summary__image-wrap { max-height: 320px; }
+}
+
 /* ---- Congressional District 10 section (homepage) --------------- */
 .district-check { background: var(--paper-2); border-top: 1px solid var(--line); }
 .district-check-inner {

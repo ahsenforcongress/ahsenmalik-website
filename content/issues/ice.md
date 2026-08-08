@@ -3,6 +3,18 @@ title: "ICE: To Abolish or Not, That Is the Question"
 description: "Ahsen Malik's position on ICE, immigration enforcement, and undocumented immigrants."
 ---
 
+<div class="ice-summary">
+  <div class="ice-summary__left">
+    <h2 class="ice-summary__title">Summary</h2>
+    <ul class="ice-summary__points">
+      <li>I support immigration enforcement and a secure border</li>
+      <li>I oppose ICE thuggery, but I am not a sloganeer; functionality matters more than the name</li>
+      <li>I support permanent residency for undocumented immigrants, but no path to citizenship</li>
+    </ul>
+  </div>
+  <div class="ice-summary__image-wrap"></div>
+</div>
+
 I don't support a slogan, and I don't support abusive, unaccountable
 enforcement tactics either. I support a secure border, an immigration
 enforcement system that follows the law and answers to the public, and a
