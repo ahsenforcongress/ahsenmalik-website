@@ -2,24 +2,21 @@
 title: "Abortion: The Bold Truth"
 description: "Ahsen Malik's position on abortion — a durable, bipartisan compromise."
 ---
+<link rel="stylesheet" href="/css/style.css">
 
 <div class="profile">
   <div class="profile-summary">
     <h1>Summary</h1>
-    <p>
-      •	I am pro-choice in the first trimester and pro-life in the last trimester
-    </p>
-    <p>
-      •	I am open to bringing both sides together to facilitate a mutually agreeable compromise to eliminate any possibility of civil strife in the future
+    <p>•	I am pro-choice in the first trimester and pro-life in the last trimester</p>
+    <p>  •	I am open to bringing both sides together to facilitate a mutually agreeable compromise to eliminate any possibility of civil strife in the future
     </p>
   </div>
-
-  <img class="profile-image" src="/static/images/Abortion1.jpg"
-    
-
+  <img class="profile-image" src="/static/images/Abortion1.jpg" alt="">
+    </div>
+</div>
   <div class="profile-detail">
  
-    <p>
+    
  
 The issue of abortion is one of the most sensitive topics for many voters.
 Like most Americans, I am pro-choice in the early stages of pregnancy and
