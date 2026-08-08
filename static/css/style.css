@@ -448,7 +448,7 @@ a.pillar-link:hover .pillar-title { color: var(--gold-dim); }
 /* issue-page summary: bullet points left, image right (e.g. Abortion page) */
 .issue-summary {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 340px;
+  grid-template-columns: minmax(0, 1fr) 200px;
   align-items: start;
   gap: 1.5rem;
   margin: 0 0 1.75rem;
