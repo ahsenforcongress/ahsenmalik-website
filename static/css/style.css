@@ -548,6 +548,26 @@ a.pillar-link:hover .pillar-title { color: var(--gold-dim); }
   color: var(--ink);
 }
 
+.profile {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.profile-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.profile-detail {
+  grid-column: 1 / -1;
+}
+
+@media (max-width: 700px) {
+  .profile { grid-template-columns: 1fr; }
+}
+
 /* ---- Responsive ------------------------------------------------- */
 @media (max-width: 820px) {
   .carousel-slide { grid-template-columns: 1fr; }
