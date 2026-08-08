@@ -2,7 +2,6 @@
 title: "Abortion: The Bold Truth"
 description: "Ahsen Malik's position on abortion — a durable, bipartisan compromise."
 ---
-<link rel="stylesheet" href="/css/style.css">
 
 <div class="profile">
   <div class="profile-summary">
@@ -11,9 +10,9 @@ description: "Ahsen Malik's position on abortion — a durable, bipartisan compr
     <p>  •	I am open to bringing both sides together to facilitate a mutually agreeable compromise to eliminate any possibility of civil strife in the future
     </p>
   </div>
-  <img class="profile-image" src="/static/images/Abortion1.jpg" alt="">
-    </div>
-</div>
+  <div>
+    <img class="profile-image" src="/static/images/Abortion1.jpg" alt="">
+  </div>
   <div class="profile-detail">
  
     
