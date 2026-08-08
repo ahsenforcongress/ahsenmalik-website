@@ -445,6 +445,37 @@ a.pillar-link:hover .pillar-title { color: var(--gold-dim); }
 /* "Right for Virginia" static banner wrapper used inline in prose */
 .prose .right-banner--static { margin-top: 0; }
 
+/* issue-page summary: bullet points left, image right (e.g. Abortion page) */
+.issue-summary {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin: 0 0 1.75rem;
+}
+.issue-summary__points {
+  flex: 1 1 260px;
+  margin: 0;
+  padding: 1rem 1.25rem;
+  list-style: disc;
+  padding-left: 2rem;
+  background: var(--paper-2);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+}
+.issue-summary__points li { font-weight: 700; margin-bottom: 0.6rem; }
+.issue-summary__points li:last-child { margin-bottom: 0; }
+.issue-summary__image {
+  flex: 1 1 220px;
+  max-width: 280px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  margin: 0;
+}
+@media (max-width: 640px) {
+  .issue-summary__image { max-width: 100%; }
+}
+
 /* ---- Congressional District 10 section (homepage) --------------- */
 .district-check { background: var(--paper-2); border-top: 1px solid var(--line); }
 .district-check-inner {
