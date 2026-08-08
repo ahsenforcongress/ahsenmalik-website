@@ -82,7 +82,8 @@ disableKinds = ["taxonomy", "term"]
     weight = 40
   [[menus.main]]
     name = "Donate"
-    pageRef = "/donate"
+   # pageRef = "/donate"
+    url = "https://secure.anedot.com/ahsen-for-virginia/donate2ahsen"
     weight = 50
 
 [markup.goldmark.renderer]
