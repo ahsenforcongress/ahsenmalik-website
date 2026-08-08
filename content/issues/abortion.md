@@ -14,7 +14,7 @@ description: "Ahsen Malik's position on abortion — a durable, bipartisan compr
     </p>
   </div>
 
-  <img class="profile-image" src="/images/Abortion1.jpg"
+  <img class="profile-image" src="/static/images/Abortion1.jpg"
     
 
   <div class="profile-detail">
