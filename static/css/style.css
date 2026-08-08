@@ -454,26 +454,43 @@ a.pillar-link:hover .pillar-title { color: var(--gold-dim); }
   margin: 0 0 1.75rem;
 }
 .issue-summary__left {
-  padding: 1rem 1.25rem;
-  background: var(--paper-2);
-  border: 1px solid var(--line);
-  border-radius: 4px;
+  padding: 1.25rem 1.5rem;
+  background: var(--ink);
+  border-left: 4px solid var(--gold);
+  border-radius: 8px;
+  color: #fff;
 }
 .issue-summary__title {
   font-family: var(--display);
   text-transform: uppercase;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
   font-weight: 700;
   font-size: 1.125rem;
-  margin: 0 0 0.75rem;
+  margin: 0 0 0.85rem;
+  color: var(--gold);
 }
 .issue-summary__points {
   margin: 0;
-  padding-left: 1.2rem;
-  list-style: disc;
+  padding: 0;
+  list-style: none;
 }
-.issue-summary__points li { font-weight: 700; margin-bottom: 0.6rem; }
+.issue-summary__points li {
+  position: relative;
+  font-weight: 700;
+  padding-left: 1.3rem;
+  margin-bottom: 0.85rem;
+}
 .issue-summary__points li:last-child { margin-bottom: 0; }
+.issue-summary__points li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.5em;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--gold);
+}
 .issue-summary__image {
   width: 100%;
   border: 1px solid var(--line);
