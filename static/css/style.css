@@ -453,15 +453,25 @@ a.pillar-link:hover .pillar-title { color: var(--gold-dim); }
   flex-wrap: wrap;
   margin: 0 0 1.75rem;
 }
-.issue-summary__points {
+.issue-summary__left {
   flex: 1 1 260px;
-  margin: 0;
   padding: 1rem 1.25rem;
-  list-style: disc;
-  padding-left: 2rem;
   background: var(--paper-2);
   border: 1px solid var(--line);
   border-radius: 4px;
+}
+.issue-summary__title {
+  font-family: var(--display);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  font-size: 1.125rem;
+  margin: 0 0 0.75rem;
+}
+.issue-summary__points {
+  margin: 0;
+  padding-left: 1.2rem;
+  list-style: disc;
 }
 .issue-summary__points li { font-weight: 700; margin-bottom: 0.6rem; }
 .issue-summary__points li:last-child { margin-bottom: 0; }
