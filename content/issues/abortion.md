@@ -3,6 +3,24 @@ title: "Abortion: The Bold Truth"
 description: "Ahsen Malik's position on abortion — a durable, bipartisan compromise."
 ---
 
+<div class="profile">
+  <div class="profile-summary">
+    <h1>Summary</h1>
+    <p>
+      •	I am pro-choice in the first trimester and pro-life in the last trimester
+    </p>
+    <p>
+      •	I am open to bringing both sides together to facilitate a mutually agreeable compromise to eliminate any possibility of civil strife in the future
+    </p>
+  </div>
+
+  <img class="profile-image" src="/images/Abortion1.jpg"
+    
+
+  <div class="profile-detail">
+ 
+    <p>
+ 
 The issue of abortion is one of the most sensitive topics for many voters.
 Like most Americans, I am pro-choice in the early stages of pregnancy and
 pro-life in the late stages of pregnancy. Banning late term abortions, with
@@ -42,3 +60,6 @@ of abortion is exclusively left to the states — that would be a major
 concession for many on the pro-choice side, but it might be worth
 considering. However, there is currently no broad support among the
 pro-life movement for such a bill.
+</p>
+ </div>
+</div>
