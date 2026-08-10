@@ -3,10 +3,19 @@ title: "Data Centers"
 description: "Ahsen Malik's position on data centers in Virginia's 10th District."
 ---
 
-- I fully support all local legislative efforts to completely ban new data
-  center construction.
-- I support the necessary federal legislation that will equitably manage
-  the negative externalities of any new data center construction.
+<div class="issue-summary">
+  <div class="issue-summary__left">
+    <h2 class="issue-summary__title">Summary</h2>
+    <ul class="issue-summary__points">
+      <li>I fully support all local legislative efforts to completely ban new data center construction.</li>
+      <li>I support the necessary federal legislation that will equitably manage the negative externalities of any new data center construction.</li>
+    </ul>
+  </div>
+  <div class="issue-summary__right">
+    <img class="issue-summary__image" src="https://ahsenforcongress.github.io/ahsenmalik-website/images/DataCenters.jpg" alt="Data center in Virginia's 10th District">
+    <p class="issue-summary__source">Source: <a href="https://unsplash.com/@ismailenesayhan?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank" rel="noopener">unsplash.com</a></p>
+  </div>
+</div>
 
 Now that most voters have read what they needed to, those that are
 interested in the nuances of this dilemma, can continue reading. The issue
