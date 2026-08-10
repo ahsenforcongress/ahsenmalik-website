@@ -10,9 +10,12 @@ description: "Ahsen Malik's position on presidential election reform."
       <li>I support a constitutional amendment to replace the Electoral College with Ranked Choice Voting</li>
     </ul>
   </div>
-  <a href="https://blogs.uofi.uis.edu/view/8598/1650413886" target="_blank" rel="noopener">
-    <img class="issue-summary__image" src="https://ahsenforcongress.github.io/ahsenmalik-website/images/PresidentialElection.jpg" alt="Presidential election reform">
-  </a>
+  <div class="issue-summary__right">
+    <a href="https://blogs.uofi.uis.edu/view/8598/1650413886" target="_blank" rel="noopener">
+      <img class="issue-summary__image" src="https://ahsenforcongress.github.io/ahsenmalik-website/images/PresidentialElection.jpg" alt="Presidential election reform">
+    </a>
+    <p class="issue-summary__source">Source: <a href="https://blogs.uofi.uis.edu/view/8598/1650413886" target="_blank" rel="noopener">blogs.uofi.uis.edu</a></p>
+  </div>
 </div>
 
 Regardless of what one might feel about how much power a president should

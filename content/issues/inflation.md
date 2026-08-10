@@ -3,6 +3,20 @@ title: "Inflation and Rising Grocery Prices"
 description: "Ahsen Malik's position on inflation and rising grocery prices."
 ---
 
+<div class="issue-summary">
+  <div class="issue-summary__left">
+    <h2 class="issue-summary__title">Summary</h2>
+    <ul class="issue-summary__points">
+      <li>[Placeholder — add first summary point]</li>
+      <li>[Placeholder — add second summary point]</li>
+    </ul>
+  </div>
+  <div class="issue-summary__right">
+    <img class="issue-summary__image" src="https://ahsenforcongress.github.io/ahsenmalik-website/images/Inflation.jpg" alt="Inflation and rising grocery prices">
+    <p class="issue-summary__source">Source: <a href="https://en.wikipedia.org/wiki/United_States_five-dollar_bill#/media/File:US-$5-LT-1928-Fr.1525.jpg" target="_blank" rel="noopener">en.wikipedia.org</a></p>
+  </div>
+</div>
+
 Every politician in Washington wants to talk about inflation and the
 rising cost of groceries. Almost none of them want to talk about the
 actual root cause. It is not just tariffs. It is not just one war or one
