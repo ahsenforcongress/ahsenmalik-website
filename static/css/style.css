@@ -504,7 +504,7 @@ a.pillar-link:hover .pillar-title { color: var(--gold-dim); }
 /* ICE page summary — distinct dark/gold treatment, scoped to this page only */
 .ice-summary {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 260px;
+  grid-template-columns: minmax(0, 1fr) 320px;
   align-items: stretch;
   gap: 1.5rem;
   margin: 0 0 1.75rem;
@@ -547,7 +547,13 @@ a.pillar-link:hover .pillar-title { color: var(--gold-dim); }
   border-radius: 50%;
   background: var(--gold);
 }
+.ice-summary__right {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
 .ice-summary__image-wrap {
+  flex: 1;
   border-radius: 12px;
   overflow: hidden;
 }
@@ -566,6 +572,19 @@ a.pillar-link:hover .pillar-title { color: var(--gold-dim); }
   display: block;
   margin: 0;
 }
+.ice-summary__source {
+  margin: 0;
+  font-size: 0.8125rem;
+  color: var(--ink);
+  opacity: 0.65;
+}
+.ice-summary__source a {
+  color: var(--gold-dim);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  word-break: break-word;
+}
+.ice-summary__source a:hover { color: var(--ink); }
 @media (max-width: 640px) {
   .ice-summary { grid-template-columns: 1fr; }
   .ice-summary__image-wrap { max-height: 320px; }
