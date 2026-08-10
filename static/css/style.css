@@ -491,12 +491,29 @@ a.pillar-link:hover .pillar-title { color: var(--gold-dim); }
   border-radius: 50%;
   background: var(--gold);
 }
+.issue-summary__right {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
 .issue-summary__image {
   width: 100%;
   border: 1px solid var(--line);
   border-radius: 4px;
   margin: 0;
 }
+.issue-summary__source {
+  margin: 0;
+  font-size: 0.8125rem;
+  color: var(--ink);
+  opacity: 0.65;
+}
+.issue-summary__source a {
+  color: var(--gold-dim);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.issue-summary__source a:hover { color: var(--ink); }
 @media (max-width: 640px) {
   .issue-summary { grid-template-columns: 1fr; }
 }

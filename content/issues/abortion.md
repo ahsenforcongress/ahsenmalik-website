@@ -11,7 +11,10 @@ description: "Ahsen Malik's position on abortion — a durable, bipartisan compr
       <li>I am open to bringing both sides together to facilitate a mutually agreeable compromise to eliminate any possibility of civil strife in the future</li>
     </ul>
   </div>
-  <img class="issue-summary__image" src="https://ahsenforcongress.github.io/ahsenmalik-website/images/Abortion1.jpg" alt="Ahsen Malik on abortion policy">
+  <div class="issue-summary__right">
+    <img class="issue-summary__image" src="https://ahsenforcongress.github.io/ahsenmalik-website/images/Abortion1.jpg" alt="Ahsen Malik on abortion policy">
+    <p class="issue-summary__source">Source: <a href="https://unsplash.com/photos/a-group-of-people-holding-up-signs-in-front-of-the-capitol-building-0XFPG5ntedo" target="_blank" rel="noopener">unsplash.com</a></p>
+  </div>
 </div>
 
 The issue of abortion is one of the most sensitive topics for many voters.
