@@ -13,7 +13,7 @@ description: "Ahsen Malik's position on inflation and rising grocery prices."
   </div>
   <div class="issue-summary__right">
     <img class="issue-summary__image" src="https://ahsenforcongress.github.io/ahsenmalik-website/images/Inflation.jpg" alt="Inflation and rising grocery prices">
-    <p class="issue-summary__source">Source: <a href="https://en.wikipedia.org/wiki/United_States_five-dollar_bill#/media/File:US-$5-LT-1928-Fr.1525.jpg" target="_blank" rel="noopener">en.wikipedia.org</a></p>
+    <p class="issue-summary__source">Source: <a href="https://en.wikipedia.org/wiki/United_States_five-dollar_bill#/media/File:US-$5-LT-1928-Fr.1525.jpg" target="_blank" rel="noopener">National Numismatic Collection at the Smithsonian Institution</a></p>
   </div>
 </div>
 

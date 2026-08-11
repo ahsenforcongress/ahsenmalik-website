@@ -14,7 +14,7 @@ description: "Ahsen Malik's position on presidential election reform."
     <a href="https://blogs.uofi.uis.edu/view/8598/1650413886" target="_blank" rel="noopener">
       <img class="issue-summary__image" src="https://ahsenforcongress.github.io/ahsenmalik-website/images/PresidentialElection.jpg" alt="Presidential election reform">
     </a>
-    <p class="issue-summary__source">Source: <a href="https://blogs.uofi.uis.edu/view/8598/1650413886" target="_blank" rel="noopener">blogs.uofi.uis.edu</a></p>
+    <p class="issue-summary__source">Source: <a href="https://blogs.uofi.uis.edu/view/8598/1650413886" target="_blank" rel="noopener">Dr. A.J. Simmons, CSPL Research Director</a></p>
   </div>
 </div>
 

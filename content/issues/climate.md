@@ -3,6 +3,20 @@ title: "Effective and Lasting Climate Policy"
 description: "Why Virginia's 10th District needs a bipartisan climate bill, not a partisan one."
 ---
 
+<div class="issue-summary">
+  <div class="issue-summary__left">
+    <h2 class="issue-summary__title">Summary</h2>
+    <ul class="issue-summary__points">
+      <li>[Placeholder — add first summary point]</li>
+      <li>[Placeholder — add second summary point]</li>
+    </ul>
+  </div>
+  <div class="issue-summary__right">
+    <img class="issue-summary__image" src="https://ahsenforcongress.github.io/ahsenmalik-website/images/ClimateChange.jpg" alt="Effective and lasting climate policy">
+    <p class="issue-summary__source">Source: <a href="https://pixabay.com/illustrations/noahs-ark-flood-storm-sea-clouds-8769318/" target="_blank" rel="noopener">Ken Williams</a></p>
+  </div>
+</div>
+
 Climate policy tends to get presented as a binary choice: either you believe
 in aggressive government action to eliminate fossil fuels as fast as
 possible, or you're a climate skeptic standing in the way of progress. That

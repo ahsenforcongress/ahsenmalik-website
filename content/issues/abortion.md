@@ -13,7 +13,7 @@ description: "Ahsen Malik's position on abortion — a durable, bipartisan compr
   </div>
   <div class="issue-summary__right">
     <img class="issue-summary__image" src="https://ahsenforcongress.github.io/ahsenmalik-website/images/Abortion1.jpg" alt="Ahsen Malik on abortion policy">
-    <p class="issue-summary__source">Source: <a href="https://unsplash.com/photos/a-group-of-people-holding-up-signs-in-front-of-the-capitol-building-0XFPG5ntedo" target="_blank" rel="noopener">unsplash.com</a></p>
+    <p class="issue-summary__source">Source: <a href="https://unsplash.com/photos/a-group-of-people-holding-up-signs-in-front-of-the-capitol-building-0XFPG5ntedo" target="_blank" rel="noopener">Gayatri Malhotra</a></p>
   </div>
 </div>
 
