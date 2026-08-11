@@ -55,7 +55,7 @@ You may unsubscribe from campaign emails at any time by clicking the
 "unsubscribe" link in any email. To opt out of SMS messages, reply STOP to
 any text message from us at any time. To request access to or deletion of
 your personal information, contact us at
-[ahsenforcongress@gmail.com](mailto:ahsenforcongress@gmail.com).
+[privacy@ahsenmalik.com](mailto:privacy@ahsenmalik.com).
 
 ## Children's Privacy
 
@@ -134,4 +134,4 @@ of the revised terms.
 
 For questions about this Privacy Policy or these Terms and Conditions,
 please contact us at:
-[ahsenforcongress@gmail.com](mailto:ahsenforcongress@gmail.com).
+[privacy@ahsenmalik.com](mailto:privacy@ahsenmalik.com).

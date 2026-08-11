@@ -13,7 +13,7 @@ description: "Ahsen Malik's position on data centers in Virginia's 10th District
   </div>
   <div class="issue-summary__right">
     <img class="issue-summary__image" src="https://ahsenforcongress.github.io/ahsenmalik-website/images/DataCenters.jpg" alt="Data center in Virginia's 10th District">
-    <p class="issue-summary__source">Source: <a href="https://unsplash.com/@ismailenesayhan?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank" rel="noopener">unsplash.com</a></p>
+    <p class="issue-summary__source">Source: <a href="https://unsplash.com/@ismailenesayhan?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank" rel="noopener">İsmail Enes Ayhan</a></p>
   </div>
 </div>
 
