@@ -34,8 +34,8 @@ given how the legal landscape has shifted since Dobbs. But I believe the
 pro-choice side can still secure a strong, durable outcome here. If you are
 pro-life, I respect your belief that human life begins at conception. But
 that is your theological belief and hence abortion in the early stage of
-pregnancy is a religious liberty issue. Why should a Jewish woman, Muslim
-woman, Hindu woman, liberal Christian woman, etc. be forced into the
+pregnancy is a religious liberty issue. Why should a Jewish woman, Muslim woman, 
+Hindu woman, or liberal Christian woman be forced into the 
 theological opinion of conservative Christians? How is that fair?
 
 For the sake of the unity of our nation, I am open to two potential
