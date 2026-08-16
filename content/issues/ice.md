@@ -12,12 +12,6 @@ description: "Ahsen Malik's position on ICE, immigration enforcement, and undocu
       <li>I support permanent residency for undocumented immigrants, but no path to citizenship</li>
     </ul>
   </div>
-  <div class="ice-summary__right">
-    <div class="ice-summary__image-wrap">
-      <img class="ice-summary__image" src="https://ahsenforcongress.github.io/ahsenmalik-website/images/ReneeICE.jpg" alt="Renee Nicole Good">
-    </div>
-    <p class="ice-summary__source">Source: <a href="https://www.instagram.com/p/DTOlUeDFJHn/" target="_blank" rel="noopener">changetheref</a></p>
-  </div>
 </div>
 
 I don't support a slogan, and I don't support abusive, unaccountable
