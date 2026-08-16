@@ -9,9 +9,9 @@ future trajectory of our nation. One of my strengths is to approach
 challenges with a balanced perspective. My professional background in
 education, residential mortgage finance, and realty — while atypical for
 those entering the House of Representatives — provides me with a fresh and
-valuable viewpoint. In these unique times, with Congress holding a 10%
-approval rating, I believe that being an outsider is a strength, not a
-weakness.
+valuable viewpoint. In these unique times, with Congress holding less
+than a 20% approval rating, I believe that being an outsider is a
+strength, not a weakness.
 
 If elected, I am committed to bringing a forward-thinking perspective to the
 table and to working tirelessly to address the needs and concerns of our
