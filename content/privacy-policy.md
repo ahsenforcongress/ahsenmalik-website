@@ -3,33 +3,43 @@ title: "Privacy Policy & Terms and Conditions"
 description: "Ahsen for Virginia's privacy policy and terms and conditions, including our SMS/MMS text messaging program."
 ---
 
-*Ahsen for Virginia — Last updated: July 16, 2026*
+*Ahsen for Virginia — Last updated: [August 16th, 2026]*
 
 ## Privacy Policy
 
 Ahsen for Virginia ("we," "us," or "our") is committed to protecting your
 privacy. This Privacy Policy explains how we collect, use, and safeguard
 information you provide through our website and communications programs,
-including our SMS/text messaging program.
+including our SMS/MMS text messaging program.
 
 ## Information We Collect
 
-We may collect the following types of personal information: name, email
-address, phone number, and mailing address when you voluntarily provide
-them; contribution amounts and payment data processed through our secure
-payment processor; your opt-in or opt-out status for email and SMS
-programs; pages visited, browser type, IP address, and other usage data
-collected automatically via cookies; and volunteer availability and skills
-when you sign up to help the campaign.
+We may collect the following types of personal information:
+
+- Name, email address, phone number, and mailing address when you
+  voluntarily provide them
+- Contribution amounts and payment data processed through our secure
+  third-party payment processor (we do not store full payment card
+  numbers)
+- Your opt-in or opt-out status for email and SMS programs
+- Pages visited, browser type, IP address, and other usage data collected
+  automatically via cookies and similar technologies
+- Volunteer availability and skills when you sign up to help the campaign
 
 ## How We Use Your Information
 
-We use the information we collect to send campaign updates, event
-invitations, donation requests, and political communications; to process
-and acknowledge contributions in compliance with federal and state
-campaign finance law; to operate our SMS/MMS text messaging program; to
-respond to your inquiries; and to comply with applicable legal
-requirements including FEC reporting obligations.
+We use the information we collect to:
+
+- Send campaign updates, event invitations, donation requests, and
+  political communications
+- Process and acknowledge contributions in compliance with federal and
+  state campaign finance law
+- Operate our SMS/MMS text messaging program
+- Respond to your inquiries
+- Comply with applicable legal requirements, including FEC reporting
+  obligations
+- Continue sharing updates and communications from Ahsen Malik beyond the
+  conclusion of this campaign
 
 ## How We Share Your Information
 
@@ -37,25 +47,43 @@ We do not sell your personal information. We may share information with
 trusted service providers who assist us in operating our website,
 processing donations, or delivering communications, subject to
 confidentiality agreements. We may also disclose information as required
-by law.
+by law, such as in response to a valid subpoena or FEC reporting
+requirement.
 
-All the above categories exclude text messaging originator opt-in data and
-consent; this information will not be shared with any third parties.
+Text messaging originator opt-in data and consent are never shared with
+any third parties for marketing or promotional purposes.
+
+## Cookies and Tracking
+
+Our website may use cookies and similar technologies to understand site
+usage and improve visitor experience. You can control cookies through
+your browser settings, including blocking or deleting them; note that
+some site features may not function properly if cookies are disabled.
+
+## Data Retention
+
+We retain personal information for as long as reasonably necessary to
+fulfill the purposes described in this policy, including to continue
+sharing political updates and communications with you beyond the current
+campaign, and as required to comply with FEC recordkeeping and reporting
+obligations, which may extend beyond the life of the campaign.
 
 ## Data Security
 
 We implement reasonable administrative, technical, and physical safeguards
 to protect your personal information from unauthorized access or
-disclosure. No method of electronic transmission is 100% secure, and we
-cannot guarantee absolute security.
+disclosure. No method of electronic transmission or storage is 100%
+secure, and we cannot guarantee absolute security.
 
 ## Your Choices
 
-You may unsubscribe from campaign emails at any time by clicking the
-"unsubscribe" link in any email. To opt out of SMS messages, reply STOP to
-any text message from us at any time. To request access to or deletion of
-your personal information, contact us at
-[privacy@ahsenmalik.com](mailto:privacy@ahsenmalik.com).
+- **Email:** Unsubscribe at any time using the "unsubscribe" link in any
+  email.
+- **SMS:** Reply STOP to any text message from us at any time to opt out.
+  Reply HELP for assistance.
+- **Access or Deletion:** To request access to or deletion of your
+  personal information, contact us at
+  [privacy@ahsenmalik.com](mailto:privacy@ahsenmalik.com).
 
 ## Children's Privacy
 
@@ -84,28 +112,35 @@ interfere with other users.
 
 By entering your phone number and selecting to opt in, you consent to join
 a recurring SMS/MMS text messaging program that will provide alerts,
-donation requests, updates, and other important information. By
-participating, you agree to the terms & privacy policy for auto dialed
-messages to the phone number you provide. Msg & data rates may apply. Msg
-frequency varies. Reply HELP for help or STOP to opt-out at any time. SMS
-information is not rented, sold, or shared.
-
-All the above categories exclude text messaging originator opt-in data and
-consent; this information will not be shared with any third parties.
+donation requests, updates, and other important information. Consent to
+receive texts is not a condition of any donation or service. Message and
+data rates may apply. Message frequency varies. Reply HELP for help or
+STOP to opt out at any time. SMS information is not rented, sold, or
+shared with third parties for marketing purposes.
 
 ## Political Contributions
 
 Contributions made through this website are subject to federal campaign
 finance law. Contributions are not tax-deductible. By contributing, you
-certify that the contribution is made from your own funds, you are not a
-foreign national, and you are not making the contribution on behalf of
-another person or entity.
+certify that:
+
+- The contribution is made from your own funds
+- You are not a foreign national
+- You are not a federal government contractor
+- You are not making the contribution on behalf of another person or
+  entity
+
+This section is informational and not tax or legal advice; consult a tax
+professional with questions about your specific situation.
 
 ## Intellectual Property
 
-All content on this website, including text, graphics, and logos, is the
+All original content on this website, including text and logos, is the
 property of Ahsen for Virginia and may not be reproduced without written
-permission.
+permission. Certain images on this website are used under free-use
+licenses (such as those offered by Unsplash and Pixabay) or are U.S.
+government works in the public domain; all rights to those images remain
+with their original owners or licensors.
 
 ## Disclaimer of Warranties
 
@@ -122,7 +157,8 @@ your use of this website or our communications programs.
 ## Governing Law
 
 These Terms and Conditions are governed by the laws of the United States
-and the state of Virginia, without regard to conflict of law principles.
+and the Commonwealth of Virginia, without regard to conflict of law
+principles.
 
 ## Changes to These Terms
 
