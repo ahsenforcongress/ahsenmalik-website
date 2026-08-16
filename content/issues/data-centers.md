@@ -17,31 +17,19 @@ description: "Ahsen Malik's position on data centers in Virginia's 10th District
   </div>
 </div>
 
-Now that most voters have read what they needed to, those that are
-interested in the nuances of this dilemma, can continue reading. The issue
-of data centers poses tough challenges, especially relevant given that
-Loudoun County, in Virginia's 10th district, is the data center capital of
-the country.
+The issue of data centers poses tough challenges, especially relevant given
+that Loudoun County, in Virginia's 10th district, is the data center
+capital of the country.
 
 Two things can be true at the same time.
 
-1. **Data Centers are a vital necessity** — data centers are essential
-   infrastructure for our information-based economy. Were there to be a
-   complete national moratorium on any new data center being built
-   anywhere in the country, we would likely lose the AI race to China. If
-   you were to tell Americans exactly what it would cost them to have no
-   new data centers built in this country, most would not want to pay that
-   price. They want the benefits data centers bring, from cloud storage to
-   AI tools people now use daily, but they don't want to live next to one.
-   It's a real, understandable NIMBY dynamic, not a contradiction to be
-   dismissed.
-2. **Data Centers result in some serious and ugly externalities:**
+1. **Data Centers result in some serious and ugly externalities:**
    1. **Rising electricity costs** — areas with high concentrations of data
-      centers have seen electricity prices climb roughly 267% over the
-      past five years.[^1] Nearly three-quarters of Virginia voters
-      surveyed in January 2026 blamed data centers specifically for rising
-      electricity bills.[^2] Utilities can also pass the cost of grid
-      upgrades needed to serve new data centers onto all ratepayers,
+      centers have seen wholesale electricity prices climb roughly 267%
+      over the past five years.[^1] Nearly three-quarters of Virginia
+      voters surveyed in January 2026 blamed data centers specifically for
+      rising electricity bills.[^2] Utilities can also pass the cost of
+      grid upgrades needed to serve new data centers onto all ratepayers,
       including residents whose own electricity usage never changed.
    2. **Heavy water consumption** — A single hyperscale data center can
       consume up to roughly 5 million gallons of water a day, comparable
@@ -68,6 +56,16 @@ Two things can be true at the same time.
       AI-related data center electricity generation could be linked to
       approximately 1,300 deaths and 600,000 asthma cases annually by
       2030.[^8]
+2. **Data Centers are a vital necessity** — data centers are essential
+   infrastructure for our information-based economy. Were there to be a
+   complete national moratorium on any new data center being built
+   anywhere in the country, we would likely lose the AI race to China. If
+   you were to tell Americans exactly what it would cost them to have no
+   new data centers built in this country, most would not want to pay that
+   price. They want the benefits data centers bring, from cloud storage to
+   AI tools people now use daily, but they don't want to live next to one.
+   It's a real, understandable NIMBY dynamic, not a contradiction to be
+   dismissed.
 
 ## How Residents Are Fighting Back
 
@@ -81,7 +79,7 @@ specifically designed to make new data center construction
 cost-prohibitive, though I believe this is a tool worth putting on the
 table.
 
-## The Equity Problem this Creates
+## The Equity Problem This Creates
 
 Ultimately, if this fight is left entirely to individual localities, data
 center growth will end up concentrated in the communities with the least
@@ -90,12 +88,12 @@ fewer resources to organize, hire land-use attorneys, and sustain a
 multi-year fight against a well-funded developer. This pattern has a long
 history in American land use: landfills, incinerators, and other locally
 unwanted infrastructure have consistently ended up disproportionately in
-under-resourced communities, which in the U.S. has often meant communities
-of color as well, though the underlying driver is political and economic
-capacity to resist, not race itself. Wealthier, better-organized
-communities will keep data centers out. Poorer ones, with fewer resources
-to fight back, will end up bearing the noise, the water stress, the air
-pollution, and the strain on the local grid.
+under-resourced communities. In the U.S., this has often meant communities
+of color, though the underlying driver is political and economic capacity
+to resist, not race itself. Wealthier, better-organized communities will
+keep data centers out. Poorer ones, with fewer resources to fight back,
+will end up bearing the noise, the water stress, the air pollution, and
+the strain on the local grid.
 
 ## What's Already Moving in Congress
 
@@ -138,7 +136,8 @@ remove old ones.
 ## My Proposal: The Distributed and Responsible Data Center Siting Act
 
 This framework takes the strongest, most defensible piece of each existing
-effort and fixes the gaps in each.
+effort, and of the research literature on state-level data center
+governance,[^9] and attempts to fix the gaps in each.
 
 ### Title I: Voluntary Distributed Siting
 
@@ -164,6 +163,23 @@ brownfield land, and documented local consent: a governing body vote or
 ballot referendum specifically authorizing the project after public
 comment.
 
+Before a project counts against a jurisdiction's capacity cap, its
+projected power draw and water consumption must be independently verified
+by the Siting Board rather than accepted directly from the developer.
+Demand projections that drive multi-decade infrastructure decisions have
+too often come from the same company with a financial interest in an
+optimistic number, and self-reported figures shouldn't be the basis for
+decisions communities have to live with for decades.
+
+A developer must also post a bond or letter of credit scaled to its
+verified projected power draw before a project is approved and counted
+against the cap. If the facility is not built out substantially as
+represented within a specified timeframe, the bond is forfeited to the
+host jurisdiction. This ensures speculative developers can't tie up a
+community's limited capacity allocation with a project that never
+materializes, while leaving the jurisdiction with nothing to show for the
+years it held that slot open.
+
 ### Title II: Grid Impact and Ratepayer Protection
 
 Any covered facility with a demand of 20 megawatts or more must, by
@@ -180,18 +196,37 @@ reliability. Any community benefit or agreement tied to that referendum
 must be publicly disclosed, and none may include a tax incentive or cash
 payment, closing the same loophole barred in Title I.
 
+As a third option, a facility may remain grid-connected without a local
+referendum if it procures new clean energy generation, not existing
+generation already serving other customers, matched to its own
+electricity usage on an hourly basis rather than through annual offsets.
+This gives developers already pursuing hourly-matched clean energy
+commitments a clear path to comply without requiring a community vote,
+while ensuring ratepayers aren't left financing new fossil generation
+built to serve someone else's data center.
+
 Where a referendum approves grid-sharing, the facility must pay 100% of
 its own interconnection and grid-upgrade costs, none of which may be
 passed to other ratepayers, and must participate in demand response and
-load curtailment during grid stress events.
+load curtailment during grid stress events. Grid-tied facilities are also
+billed under real-time, locational rates that reflect the actual cost
+their usage imposes on the grid at that place and time, not a flat
+volumetric rate, so the price signal itself encourages new projects to
+locate where the grid actually has room for them.
 
 Regardless of off-grid status, every covered facility must maintain a
 coordinated emergency interconnection with its regional grid operator for
-safety and reliability purposes, and remains subject to federal
-reliability standards. No facility may disconnect from or reconnect to
-the grid without advance coordination with its grid operator. This closes
-the gap that caused a near-miss grid destabilization event in Virginia,
-where dozens of data centers disconnected simultaneously without warning.
+safety and reliability purposes and remains subject to federal reliability
+standards. No facility may disconnect from or reconnect to the grid
+without advance coordination with its grid operator. This closes the gap
+that caused a near-miss grid destabilization event in Virginia, where
+dozens of data centers disconnected simultaneously without warning.
+
+These requirements are not limited to new facilities. Existing large data
+centers become subject to Title II at the next renewal of their
+interconnection agreement with their grid operator, so that facilities
+built before this Act don't operate under permanently different rules
+than everything built after it.
 
 ### Title III: Environmental and Noise Buffer
 
@@ -222,7 +257,15 @@ commandeering of state and local authority. It regulates only developers
 who voluntarily seek specific federal benefits, permitting assistance or
 interconnection support, which Congress may condition under its spending
 powers, similar in structure to how federal highway funding has long been
-conditioned on state policy choices. Titles II through IV apply more
+conditioned on state policy choices. This is also why Title I, not a
+blanket nationwide mandate, is the right home for requirements like the
+verified-forecasting and bonding provisions above: land use and siting
+decisions have always been state and local authority, and the strongest
+voices working on data center policy at the state level, including
+researchers who work with legislators in dozens of states, argue this is
+deliberately where these decisions belong, not because a federal role is
+illegitimate, but because localities are best positioned to weigh the
+specific, place-based tradeoffs involved. Titles II through IV apply more
 broadly to any facility meeting the size threshold, grounded directly in
 Congress's power to regulate interstate commerce, since these facilities
 participate in interstate electricity markets and interstate data
@@ -269,3 +312,6 @@ not by the families who live next to it.
 [^8]: "The Unpaid Toll: Quantifying the Public Health Impact of AI,"
     University of California, Riverside and California Institute of
     Technology, 2026.
+[^9]: Saleem Chapman, Climate Cabinet, "Taming Data Center Turmoil" policy
+    series; interview on the Volts podcast with David Roberts, "What
+    should state policymakers do about data centers?", August 2026.
