@@ -7,8 +7,7 @@ description: "Ahsen Malik's position on inflation and rising grocery prices."
   <div class="issue-summary__left">
     <h2 class="issue-summary__title">Summary</h2>
     <ul class="issue-summary__points">
-      <li>[Placeholder — add first summary point]</li>
-      <li>[Placeholder — add second summary point]</li>
+      <li>I will fight hard for a balanced budget as that is the key to reducing inflation long term and preventing it from coming back.</li>
     </ul>
   </div>
   <div class="issue-summary__right">
@@ -19,24 +18,24 @@ description: "Ahsen Malik's position on inflation and rising grocery prices."
 
 Every politician in Washington wants to talk about inflation and the
 rising cost of groceries. Almost none of them want to talk about the
-actual root cause. It is not just tariffs. It is not just one war or one
-supply shock. The deeper driver of the cost-of-living crisis hitting
-American families is the federal government spending far more than it
-takes in, year after year, and financing the gap through borrowing on a
-scale the country has never sustained in peacetime. The federal
-government is on pace to run a deficit of roughly $2 trillion this year
-alone. Debt held by the public — what the Treasury has borrowed from
-outside lenders, markets, and foreign governments — has climbed past
-$31.8 trillion. Counting what the government also owes its own trust
-funds, like Social Security and Medicare, the total national debt now
-stands at approximately $39.6 trillion. When the government floods the
-economy with borrowed money, year after year, it shouldn't surprise
-anyone that the value of every dollar in your pocket goes down and the
-price of everything you buy goes up.
+actual root cause. It is not just the tariffs or one war or supply shock.
+The deeper driver of the cost-of-living crisis hitting American families
+is the federal government spending far more than it takes in, year after
+year, and financing the gap through borrowing on a scale the country has
+never sustained in peacetime. The federal government is on pace to run a
+deficit of roughly $2 trillion this year alone. Debt held by the public:
+what the Treasury has borrowed from outside lenders, markets, and foreign
+governments, has climbed past $31.8 trillion. Counting what the
+government also owes its own trust funds, like Social Security and
+Medicare, the total national debt now stands at approximately $39.6
+trillion. When the government floods the economy with borrowed money,
+year after year, it shouldn't surprise anyone that the value of every
+dollar in your pocket goes down and the price of everything you buy goes
+up.
 
-Here is where I'll part ways with most politicians in both parties: I am
-not going to pretend there's a painless way out of this. Think about it
-this way. Imagine every month you spend more than you earn and put the
+Here is where I'll part ways with most politicians in both parties: I
+won't pretend there's a painless way out of this. Think about it this
+way. Imagine every month you spend more than you earn and put the
 difference on a credit card. In the short run, you experience prosperity
 and a higher standard of living. But in the long run, the credit card
 company will cut you off, and you will be forced to reign in your
@@ -60,8 +59,8 @@ dictated by our creditors and by markets that have lost patience with us.
 Nearly every serious economist across the political spectrum agrees that
 debt growing faster than the economy indefinitely is not sustainable. The
 only real question is whether we manage that adjustment deliberately, or
-whether it's forced on us in a crisis — a sudden spike in interest rates,
-a loss of confidence in the dollar, or worse. Recently many Americans were
+whether it's forced on us in a crisis, a sudden spike in interest rates, a
+loss of confidence in the dollar, or worse. Recently many Americans were
 told that they should support an unnecessary war on the grounds of "short
 term pain for long term gain." That was completely inappropriate and an
 insult to hardworking Americans. Yet balancing the budget might be a
