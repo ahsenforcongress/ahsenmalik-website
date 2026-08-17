@@ -66,11 +66,7 @@ who want a citizenship path, I'd say: legal status without fear of removal
 is a substantial, meaningful improvement over the status quo and I believe
 the overwhelming majority of undocumented immigrants will be grateful and
 satisfied with it. To those who want mass removal, I'd ask: what is your
-actual, physically achievable alternative? Do you want President Trump to
-start executing undocumented immigrants in order to terrify the rest of
-them to self-deport? Hopefully you're not so cruel to seriously consider
-this, but even this would likely not work but would for sure trigger a
-global backlash against us.
+actual, physically achievable alternative?
 
 Separately, I believe our overall legal immigration quotas are too low,
 and I support increasing them. But that must happen through legislation,
@@ -107,6 +103,6 @@ possibility President Trump will send ground troops to invade Iran and
 that likely would require reinstituting the draft. If you are an advocate
 for the Second Amendment, aren't you concerned about the risk this ICE
 detention infrastructure poses to lawful gun owners in the event of crisis
-in which a president invokes emergency powers? A government with 170,000
-detention beds has built a tool that will outlast the political moment
-that created it.
+in which a president invokes emergency powers? A government on track to
+reach 170,000 detention beds will have built a tool that will outlast the
+political moment that created it.
