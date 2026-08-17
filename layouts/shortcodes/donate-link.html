@@ -1,0 +1,6 @@
+<a href="{{ .Site.Params.donateBaseURL }}?source_code={{ .Get "source" }}"
+   class="{{ with .Get "class" }}{{ . }}{{ end }}"
+   target="_blank"
+   rel="noopener">
+  {{ .Get "text" | default "Donate" }}
+</a>

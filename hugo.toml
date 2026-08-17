@@ -17,6 +17,10 @@ disableKinds = ["taxonomy", "term"]
   # Required disclaimer for campaign advertisements, including websites.
   # Update if the committee's registered name changes.
   disclaimer = "Paid for by Ahsen for Virginia."
+  # Single source of truth for the Anedot donate link. Every donate
+  # placement builds its href from this plus its own ?source_code, so
+  # changing the account/page slug only ever needs an edit here.
+  donateBaseURL = "https://secure.anedot.com/ahsen-for-virginia/donate2ahsen"
 
 # ---------------------------------------------------------------------------
 # Main navigation. Add, remove, or reorder top-level pages here (lower
@@ -83,7 +87,7 @@ disableKinds = ["taxonomy", "term"]
   [[menus.main]]
     name = "Donate"
    # pageRef = "/donate"
-    url = "https://secure.anedot.com/ahsen-for-virginia/donate2ahsen"
+    identifier = "donate"
     weight = 50
 
 [markup.goldmark.renderer]

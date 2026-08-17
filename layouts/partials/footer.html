@@ -8,7 +8,9 @@
     <nav class="footer-nav" aria-label="Footer">
       <h2 class="footer-heading">Site</h2>
       {{ range .Site.Menus.main }}
-        <a href="{{ .URL }}">{{ .Name }}</a>
+        {{ $href := .URL }}
+        {{ if eq .Identifier "donate" }}{{ $href = printf "%s?source_code=footer" $.Site.Params.donateBaseURL }}{{ end }}
+        <a href="{{ $href }}">{{ .Name }}</a>
       {{ end }}
     </nav>
   </div>

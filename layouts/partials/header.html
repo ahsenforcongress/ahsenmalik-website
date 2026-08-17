@@ -13,9 +13,11 @@
     <nav class="site-nav" aria-label="Main">
       {{ range .Site.Menus.main }}
         {{ $active := or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}
+        {{ $href := .URL }}
+        {{ if eq .Identifier "donate" }}{{ $href = printf "%s?source_code=nav" $.Site.Params.donateBaseURL }}{{ end }}
         {{ if .Children }}
         <div class="nav-item has-dropdown">
-          <a href="{{ .URL }}" class="{{ if $active }}is-active{{ end }}">{{ .Name }}</a>
+          <a href="{{ $href }}" class="{{ if $active }}is-active{{ end }}">{{ .Name }}</a>
           <div class="dropdown-menu">
             {{ range .Children }}
             <a href="{{ .URL }}">{{ .Name }}</a>
@@ -23,7 +25,7 @@
           </div>
         </div>
         {{ else }}
-        <a href="{{ .URL }}" class="{{ if $active }}is-active{{ end }}">{{ .Name }}</a>
+        <a href="{{ $href }}" class="{{ if $active }}is-active{{ end }}">{{ .Name }}</a>
         {{ end }}
       {{ end }}
     </nav>
