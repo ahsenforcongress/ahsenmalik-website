@@ -83,7 +83,7 @@ secure, and we cannot guarantee absolute security.
   Reply HELP for assistance.
 - **Access or Deletion:** To request access to or deletion of your
   personal information, contact us at
-  [privacy@ahsenmalik.com](mailto:privacy@ahsenmalik.com).
+  [info@ahsenmalik.com](mailto:info@ahsenmalik.com).
 
 ## Children's Privacy
 
@@ -170,4 +170,4 @@ of the revised terms.
 
 For questions about this Privacy Policy or these Terms and Conditions,
 please contact us at:
-[privacy@ahsenmalik.com](mailto:privacy@ahsenmalik.com).
+[info@ahsenmalik.com](mailto:info@ahsenmalik.com).
