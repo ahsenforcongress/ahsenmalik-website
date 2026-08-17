@@ -77,7 +77,9 @@
   <div class="wrap pillars-grid">
     {{ range $i, $p := . }}
     {{ if $p.link }}
-    <a class="pillar pillar-link" href="{{ relref $page $p.link }}">
+    {{ $href := relref $page $p.link }}
+    {{ if eq $p.title "Donate" }}{{ $href = printf "%s?source_code=home" $page.Site.Params.donateBaseURL }}{{ end }}
+    <a class="pillar pillar-link" href="{{ $href }}">
       <span class="pillar-num">{{ printf "%02d" (add $i 1) }}</span>
       <h2 class="pillar-title">{{ $p.title }}</h2>
       <p class="pillar-body">{{ $p.body }}</p>
