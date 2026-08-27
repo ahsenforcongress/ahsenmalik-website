@@ -400,6 +400,13 @@ nav.primary-nav a:hover,nav.primary-nav a[aria-current="page"]{
   margin-bottom:0;font-size:.95rem;font-weight:400;
 }
 .checkbox-row input[type="checkbox"]{margin:0;flex:none;}
+
+/* ---- SMS opt-in consent ---- */
+.sms-consent{margin-top:.2rem;background:rgba(76,35,132,.05);border-left:3px solid var(--line);border-radius:6px;padding:.9rem 1rem;}
+.sms-consent .sms-terms{margin-top:.45rem;}
+.sms-terms{margin:.6rem 0 0;font-size:.78rem;line-height:1.55;color:var(--ink-soft);max-width:62ch;}
+.sms-terms a{color:var(--gold-600);text-decoration:underline;}
+.sms-terms a:hover{color:var(--purple-700);}
 </style>
 
 </head>
@@ -479,7 +486,11 @@ nav.primary-nav a:hover,nav.primary-nav a[aria-current="page"]{
     <p class="form-intro">Whatever your experience level, we would love to hear from you if you are interested in joining the campaign. Please fill out this form.</p>
   </div>
   <div>
-      <form class="form-grid" novalidate>
+      <form class="form-grid" novalidate action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="31e17966-a467-4127-aa65-07f831524756">
+        <input type="hidden" name="subject" value="New volunteer signup — Election Reform issue page">
+        <input type="hidden" name="from_name" value="Ahsen Malik for Congress website">
+        <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
         <div class="field">
           <label for="issue-election-reform-name">Name<span class="req">*</span></label>
           <input type="text" id="issue-election-reform-name" name="name" required>
@@ -505,6 +516,11 @@ nav.primary-nav a:hover,nav.primary-nav a[aria-current="page"]{
             <div class="other-row"><label class="checkbox-row" for="other-check"><input type="checkbox" id="other-check" name="interest" value="Other"> Other</label><input type="text" id="other-check-text" aria-label="Other interest" placeholder=""></div>
           </div>
         </div>
+        <div class="field sms-consent">
+          <label class="checkbox-row"><input type="checkbox" id="election-sms" name="sms" value="Yes"> I agree to receive text messages</label>
+          <p class="sms-terms">By entering your phone number and selecting to opt in, you consent to join a recurring SMS/MMS text messaging program that will provide alerts, donation requests, updates, and other important information. Consent to receive texts is not a condition of any donation or service. Message and data rates may apply. Message frequency varies. Reply HELP for help or STOP to opt out at any time. SMS information is not rented, sold, or shared with third parties for marketing purposes. <a href="privacy-policy.html">View our Privacy Policy Terms and Conditions.</a></p>
+        </div>
+        <div class="h-captcha" data-captcha="true"></div>
         <div class="form-actions">
           <button type="submit" class="btn-primary">Sign up</button>
           <button type="reset" class="btn-clear">Clear form</button>
@@ -709,20 +725,57 @@ nav.primary-nav a:hover,nav.primary-nav a[aria-current="page"]{
 
       if(errorEl) errorEl.classList.remove('show');
 
-      if(!successEl){
-        successEl = document.createElement('p');
-        successEl.className = 'form-success';
-        var actionsEl2 = form.querySelector('.form-actions');
-        if(actionsEl2){
-          form.insertBefore(successEl, actionsEl2);
-        } else {
-          form.appendChild(successEl);
-        }
-      }
-      successEl.textContent = "Thanks \u2014 we'll be in touch soon.";
-      successEl.classList.add('show');
-      form.reset();
-      form.querySelectorAll('.field.invalid').forEach(function(f){ f.classList.remove('invalid'); });
+      var submitBtn = form.querySelector('button[type="submit"]');
+      var submitBtnLabel = submitBtn ? submitBtn.textContent : '';
+      if(submitBtn){ submitBtn.disabled = true; submitBtn.textContent = 'Sending\u2026'; }
+
+      fetch(form.action, {
+        method: 'POST',
+        body: new FormData(form),
+        headers: { 'Accept': 'application/json' }
+      })
+        .then(function(res){
+          return res.json().then(function(data){ return { ok: res.ok, data: data }; });
+        })
+        .then(function(result){
+          if(!result.ok || !result.data.success){
+            throw new Error((result.data && result.data.message) || 'Submission failed.');
+          }
+
+          if(!successEl){
+            successEl = document.createElement('p');
+            successEl.className = 'form-success';
+            var actionsEl2 = form.querySelector('.form-actions');
+            if(actionsEl2){
+              form.insertBefore(successEl, actionsEl2);
+            } else {
+              form.appendChild(successEl);
+            }
+          }
+          successEl.textContent = "Thanks \u2014 we'll be in touch soon.";
+          successEl.classList.add('show');
+          form.reset();
+          form.querySelectorAll('.field.invalid').forEach(function(f){ f.classList.remove('invalid'); });
+        })
+        .catch(function(){
+          if(!errorEl){
+            errorEl = document.createElement('div');
+            errorEl.className = 'form-error-summary';
+            errorEl.setAttribute('role', 'alert');
+            var actionsEl = form.querySelector('.form-actions');
+            if(actionsEl){
+              form.insertBefore(errorEl, actionsEl);
+            } else {
+              form.appendChild(errorEl);
+            }
+          }
+          errorEl.innerHTML = "<div><strong>Something went wrong sending your message.</strong> Please try again, or email us directly.</div>";
+          errorEl.classList.add('show');
+          if(window.hcaptcha){ try{ window.hcaptcha.reset(); }catch(e){} }
+        })
+        .finally(function(){
+          if(submitBtn){ submitBtn.disabled = false; submitBtn.textContent = submitBtnLabel; }
+        });
     });
   }
 
@@ -778,5 +831,6 @@ nav.primary-nav a:hover,nav.primary-nav a[aria-current="page"]{
   });
 })();
 </script>
+<script src="https://web3forms.com/client/script.js" async defer></script>
 </body>
 </html>
