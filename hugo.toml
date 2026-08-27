@@ -6,7 +6,7 @@ title = "Ahsen Malik for Congress"
 enableEmoji = true
 
 # A campaign brochure site doesn't need tag/category archive pages.
-disableKinds = ["taxonomy", "term"]
+disableKinds = ["taxonomy", "term", "home"]
 
 # ---------------------------------------------------------------------------
 # Site-wide parameters. Edit these to change footer copy and the required
