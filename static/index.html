@@ -277,6 +277,7 @@ nav.primary-nav a:hover,nav.primary-nav a[aria-current="page"]{
 .hero-inner-simple{max-width:var(--max);margin:0 auto;}
 .hero-inner-simple h1{color:#fff;text-align:center;margin-bottom:2rem;font-size:clamp(2.2rem,5vw,3.2rem);}
 .hero-full-photo{width:100%;height:420px;object-fit:cover;border-radius:6px;}
+@media (max-width:760px){.hero-full-photo{height:auto;object-fit:contain;}}
 
 .home-join{align-items:start;}
 .home-join .video-embed{height:100%;min-height:520px;}
@@ -541,6 +542,9 @@ a.tri-item:hover{transform:translateY(-2px);}
 }
 .sms-terms a{color:var(--gold-600);text-decoration:underline;}
 .sms-terms a:hover{color:var(--purple-700);}
+
+/* ---- mobile: swipeable carousel (vertical scroll still works) ---- */
+.carousel-stage{touch-action:pan-y;}
 </style>
 
 </head>
@@ -790,6 +794,34 @@ a.tri-item:hover{transform:translateY(-2px);}
   document.addEventListener('visibilitychange', function(){
     if(document.hidden){ stop(); } else { start(); }
   });
+
+  // --- touch swipe (mobile) --------------------------------------------
+  if(stage && window.PointerEvent){
+    var sx = 0, sy = 0, tracking = false, swiped = false;
+    var THRESHOLD = 45;   // px of horizontal travel that counts as a swipe
+    var SLOP = 1.2;       // horizontal must beat vertical by this factor
+
+    stage.addEventListener('pointerdown', function(e){
+      if(e.pointerType === 'mouse') return;
+      sx = e.clientX; sy = e.clientY; tracking = true; swiped = false;
+      stop();
+    });
+    stage.addEventListener('pointermove', function(e){
+      if(!tracking || swiped) return;
+      var dx = e.clientX - sx, dy = e.clientY - sy;
+      if(Math.abs(dx) < THRESHOLD) return;
+      if(Math.abs(dx) < Math.abs(dy) * SLOP) return;   // vertical scroll wins
+      show(dx < 0 ? i + 1 : i - 1);
+      swiped = true;
+    });
+    function endSwipe(){ if(!tracking) return; tracking = false; restart(); }
+    stage.addEventListener('click', function(e){
+      if(swiped){ e.preventDefault(); e.stopPropagation(); swiped = false; }
+    }, true);
+    stage.addEventListener('pointerup', endSwipe);
+    stage.addEventListener('pointercancel', endSwipe);
+    stage.addEventListener('pointerleave', endSwipe);
+  }
 
   show(0);
   start();
